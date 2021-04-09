@@ -3,7 +3,7 @@ import pickle
 
 
 def save_model(model):
-    pickle.dump(model, open("../../output/model.pkl", "wb"))
+    pickle.dump(model, open("../output/model.pkl", "wb"))
     print("Model saved.")
 
 
